@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Hybrid.logincrm">
+        <methods>
+          <include name="studyapp"/>
+          <include name="setupsuite"/>
+          <include name="terdown"/>
+          <include name="teardown"/>
+          <include name="voidsetup"/>
+        </methods>
+      </class> <!-- Hybrid.logincrm -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

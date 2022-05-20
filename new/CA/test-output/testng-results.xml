@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[setting up reports and started]]>
+    </line>
+    <line>
+      <![CDATA[setting Done]]>
+    </line>
+    <line>
+      <![CDATA[Bedsheet Done]]>
+    </line>
+    <line>
+      <![CDATA[searching Done]]>
+    </line>
+    <line>
+      <![CDATA[bedapp Done]]>
+    </line>
+    <line>
+      <![CDATA[assertions Done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-20T11:25:19Z" name="Default suite" finished-at="2022-05-20T11:26:15Z" duration-ms="55801">
+    <groups>
+    </groups>
+    <test started-at="2022-05-20T11:25:19Z" name="Default test" finished-at="2022-05-20T11:26:15Z" duration-ms="55801">
+      <class name="Hybrid.logincrm">
+        <test-method is-config="true" signature="setupsuite()[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:19Z" name="setupsuite" finished-at="2022-05-20T11:25:19Z" duration-ms="311" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[setting up reports and started]]>
+            </line>
+            <line>
+              <![CDATA[setting Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method is-config="true" signature="voidsetup()[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:19Z" name="voidsetup" finished-at="2022-05-20T11:25:27Z" duration-ms="8012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voidsetup -->
+        <test-method signature="loginApp()[pri:1, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:27Z" name="loginApp" finished-at="2022-05-20T11:25:32Z" duration-ms="4797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:32Z" name="terdown" finished-at="2022-05-20T11:25:33Z" duration-ms="1212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=logincrm.loginApp()[pri:1, instance:Hybrid.logincrm@44d52de2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="signupapp()[pri:2, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:33Z" name="signupapp" finished-at="2022-05-20T11:25:40Z" duration-ms="7033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:40Z" name="terdown" finished-at="2022-05-20T11:25:40Z" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupapp status=SUCCESS method=logincrm.signupapp()[pri:2, instance:Hybrid.logincrm@44d52de2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="searchupapp()[pri:3, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:40Z" name="searchupapp" finished-at="2022-05-20T11:25:49Z" duration-ms="8967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Bedsheet Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchupapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:49Z" name="terdown" finished-at="2022-05-20T11:25:49Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchupapp status=SUCCESS method=logincrm.searchupapp()[pri:3, instance:Hybrid.logincrm@44d52de2] output=Bedsheet Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="Bedapp()[pri:4, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:49Z" name="Bedapp" finished-at="2022-05-20T11:25:56Z" duration-ms="7010" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[searching Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Bedapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:56Z" name="terdown" finished-at="2022-05-20T11:25:56Z" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Bedapp status=SUCCESS method=logincrm.Bedapp()[pri:4, instance:Hybrid.logincrm@44d52de2] output=searching Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="Bedappcart()[pri:5, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:25:56Z" name="Bedappcart" finished-at="2022-05-20T11:26:01Z" duration-ms="4695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[bedapp Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Bedappcart -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:01Z" name="terdown" finished-at="2022-05-20T11:26:01Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Bedappcart status=SUCCESS method=logincrm.Bedappcart()[pri:5, instance:Hybrid.logincrm@44d52de2] output=bedapp Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="assertions()[pri:6, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:01Z" name="assertions" finished-at="2022-05-20T11:26:04Z" duration-ms="2672" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[assertions Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- assertions -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:04Z" name="terdown" finished-at="2022-05-20T11:26:04Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assertions status=SUCCESS method=logincrm.assertions()[pri:6, instance:Hybrid.logincrm@44d52de2] output=assertions Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="tvappcart()[pri:7, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:04Z" name="tvappcart" finished-at="2022-05-20T11:26:06Z" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvappcart -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:06Z" name="terdown" finished-at="2022-05-20T11:26:06Z" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tvappcart status=SUCCESS method=logincrm.tvappcart()[pri:7, instance:Hybrid.logincrm@44d52de2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="studyapp()[pri:8, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:06Z" name="studyapp" finished-at="2022-05-20T11:26:14Z" duration-ms="8037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:14Z" name="terdown" finished-at="2022-05-20T11:26:14Z" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=studyapp status=SUCCESS method=logincrm.studyapp()[pri:8, instance:Hybrid.logincrm@44d52de2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="aboutapp()[pri:9, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:14Z" name="aboutapp" finished-at="2022-05-20T11:26:14Z" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:14Z" name="terdown" finished-at="2022-05-20T11:26:14Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutapp status=SUCCESS method=logincrm.aboutapp()[pri:9, instance:Hybrid.logincrm@44d52de2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="infoapp()[pri:10, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:14Z" name="infoapp" finished-at="2022-05-20T11:26:15Z" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:15Z" name="terdown" finished-at="2022-05-20T11:26:15Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=infoapp status=SUCCESS method=logincrm.infoapp()[pri:10, instance:Hybrid.logincrm@44d52de2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Hybrid.logincrm@44d52de2]" started-at="2022-05-20T11:26:15Z" name="teardown" finished-at="2022-05-20T11:26:15Z" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Hybrid.logincrm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
